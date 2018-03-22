@@ -16,6 +16,15 @@
     <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.1" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="../assets/css/demo.css" rel="stylesheet" />
+    <style>
+    #chart-hours {
+      width: 100%;
+    }
+    #chart-hours svg {
+      height: 400px;
+      width: 100%;
+    }
+    </style>
 </head>
 
 <body>
@@ -208,7 +217,79 @@
                                     <p class="card-category">All products including Taxes</p>
                                 </div>
                                 <div class="card-body ">
-                                    <div id="chartActivity" class="ct-chart"></div>
+                                    <div id="chart-hours" class="chart-hours">
+
+
+                                        <svg></svg>
+<script>
+var data = [
+  {
+    key: "Cumulative Return",
+    values: [
+      {
+        "label" : "A" ,
+        "value" : -29.765957771107
+      } ,
+      {
+        "label" : "B" ,
+        "value" : 0
+      } ,
+      {
+        "label" : "C" ,
+        "value" : 32.807804682612
+      } ,
+      {
+        "label" : "D" ,
+        "value" : 160.45946739256
+      } ,
+      {
+        "label" : "E" ,
+        "value" : 0.19434030906893
+      } ,
+      {
+        "label" : "F" ,
+        "value" : -98.079782601442
+      } ,
+      {
+        "label" : "G" ,
+        "value" : -13.925743130903
+      } ,
+      {
+        "label" : "H" ,
+        "value" : -5.1387322875705
+      }
+    ]
+  }
+]
+
+nv.addGraph(function() {
+    var chart = nv.models.multiBarChart()
+    	.x(function(d) { return d.label })
+    	.y(function(d) { return d.value })
+        .staggerLabels(false)
+        .showLegend(false)
+        .showControls(false)
+        .tooltips(true)
+        ;
+
+    chart.xAxis
+      	.showMaxMin(true);
+
+
+    d3.select('#chart-hours svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart)
+        ;
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+});
+</script>
+
+
+                                    </div>
                                 </div>
                                 <div class="card-footer ">
                                     <div class="legend">
