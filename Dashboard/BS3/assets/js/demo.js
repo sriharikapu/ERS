@@ -123,8 +123,8 @@ demo = {
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
 
         Chartist.Pie('#chartPreferences', {
-          labels: ['62%','32%','6%'],
-          series: [62, 32, 6]
+          labels: ['80%','10%','10%'],
+          series: [80, 10, 10]
         });
     },
 
@@ -217,8 +217,8 @@ demo = {
         Chartist.Pie('#chartPreferences', dataPreferences, optionsPreferences);
 
         Chartist.Pie('#chartPreferences', {
-          labels: ['62%','32%','6%'],
-          series: [62, 32, 6]
+          labels: ['80%','10%','10%'],
+          series: [80, 10, 10]
         });
     },
 
@@ -247,7 +247,7 @@ demo = {
 
     	$.notify({
         	icon: "pe-7s-gift",
-        	message: "Welcome to <b>Light Bootstrap Dashboard</b> - a beautiful freebie for every web developer."
+        	message: "Welcome Back <b>Bassam Abed</b>"
 
         },{
             type: type[color],

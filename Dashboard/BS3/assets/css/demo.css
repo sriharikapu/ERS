@@ -13,8 +13,14 @@
     }
 }
 
+.product-btn:hover{
+    color: orange;
+}
+
 .all-icons [class*="pe-"]{
     font-size: 40px;
+    width: 230px;
+    height: 255px;
 }
 .all-icons input{
     border: 0;
@@ -27,12 +33,28 @@
     margin: 15px 0;
 }
 .all-icons .font-icon-detail input{
-    margin: 25px auto 0;
+    margin: 10px 0 10px 0;
     width: 100%;
     text-align: center;
     display: block;
     color: #aaa;
     font-size: 13px;
+}
+
+.tx-in{
+    background-color: #5cb85c;
+    padding: 4px 12px;
+    border-radius: 4px !important;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.tx-out{
+    background-color: #e67e22;
+    padding: 4px 7px;
+    border-radius: 4px !important;
+    font-weight: 400;
+    font-size: 11px;
 }
 
 #map{
