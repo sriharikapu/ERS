@@ -1,0 +1,36 @@
+.tabs {
+  li {
+    float:left;
+    width:20%;
+  }
+  a {
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#888;
+    padding:20px 0;
+    border-bottom:2px solid #888;
+    background:#f7f7f7;
+    
+    &:hover, &.active {
+      background:#ddd;
+    }
+  }
+}
+.tabgroup {
+  div {
+    padding:30px;
+    box-shadow:0 3px 10px rgba(0,0,0,.3);
+  }
+}
+.clearfix:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+.hr_border {
+	border: 1px;
+	border-style: solid;
+    border-color: grey;
+}

@@ -27,17 +27,58 @@
         Tip 2: you can also add an image using data-image tag
     -->
             <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">
+                        Creative Tim
+                    </a>
+                </div>
                 <ul class="nav">
                     <li>
-                        <a href="#pablo">
-                            <i class="nc-icon nc-alien-33"></i>
-                            <p>Example 1</p>
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
                         </a>
                     </li>
                     <li>
-                        <a href="#pablo">
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./table.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Tranasaction List</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./typography.html">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>Reward System</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./hr.html">
+                            <i class="nc-icon nc-atom"></i>
+                            <p>HR</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./leave_management.html">
                             <i class="nc-icon nc-bell-55"></i>
-                            <p>Example 2</p>
+                            <p>Leave Management</p>
+                        </a>
+                    </li>
+					 <li>
+                        <a class="nav-link" href="./notifications.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Notifications</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active active-pro">
+                        <a class="nav-link active" href="./icons.html">
+                            <i class="nc-icon nc-alien-33"></i>
+                            <p>Marketplace</p>
                         </a>
                     </li>
                 </ul>
@@ -47,7 +88,7 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg " color-on-scroll="500">
                 <div class=" container-fluid  ">
-                    <a class="navbar-brand" href="#pablo"> template-page </a>
+                    <a class="navbar-brand" href="#pablo"> Maps </a>
                     <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar burger-lines"></span>
                         <span class="navbar-toggler-bar burger-lines"></span>
@@ -111,11 +152,8 @@
                 </div>
             </nav>
             <!-- End Navbar -->
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="section">
-                    </div>
-                </div>
+            <div class="map-container">
+                <div id="map"></div>
             </div>
             <footer class="footer">
                 <div class="container">
@@ -250,5 +288,12 @@
 <script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.1" type="text/javascript"></script>
 <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
 <script src="../assets/js/demo.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        // Javascript method's body can be found in assets/js/demos.js
+        demo.initGoogleMaps();
+
+    });
+</script>
 
 </html>

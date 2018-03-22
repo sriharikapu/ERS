@@ -29,78 +29,79 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+	<link href="assets/css/leave_management.css" rel="stylesheet" />
 
 </head>
 <body>
 
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+    <div class="sidebar" data-color="orange" data-image="assets/img/sidebar-5.jpg">
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
 
-    <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
-
-
-    	<div class="sidebar-wrapper">
-            <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
-                </a>
+        Tip 2: you can also add an image using data-image tag
+    -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">
+                        Creative Tim
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./table.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Tranasaction List</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./typography.html">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>Reward System</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./hr.html">
+                            <i class="nc-icon nc-atom"></i>
+                            <p>HR</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./leave_management.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Leave Management</p>
+                        </a>
+                    </li>
+					 <li>
+                        <a class="nav-link" href="./notifications.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Notifications</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active active-pro">
+                        <a class="nav-link active" href="./icons.html">
+                            <i class="nc-icon nc-alien-33"></i>
+                            <p>Marketplace</p>
+                        </a>
+                    </li>
+                </ul>
             </div>
-
-            <ul class="nav">
-                <li>
-                    <a href="dashboard.html">
-                        <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="user.html">
-                        <i class="pe-7s-user"></i>
-                        <p>User Profile</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="table.html">
-                        <i class="pe-7s-note2"></i>
-                        <p>Table List</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="typography.html">
-                        <i class="pe-7s-news-paper"></i>
-                        <p>Typography</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="icons.html">
-                        <i class="pe-7s-science"></i>
-                        <p>Icons</p>
-                    </a>
-                </li>
-                <li class="active">
-                    <a href="maps.html">
-                        <i class="pe-7s-map-marker"></i>
-                        <p>Maps</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="notifications.html">
-                        <i class="pe-7s-bell"></i>
-                        <p>Notifications</p>
-                    </a>
-                </li>
-				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
-                        <p>Upgrade to PRO</p>
-                    </a>
-                </li>
-            </ul>
-    	</div>
-    </div>
+        </div>
 
     <div class="main-panel">
-		<nav class="navbar navbar-default navbar-fixed">
+		<nav class="navbar navbar-default navbar-fixed ">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
@@ -179,9 +180,26 @@
                 </div>
             </div>
         </nav>
-
-        <div id="map"></div>
-
+		<br/>
+		<br/>
+		<div class="hr_border">
+			<nav class="navbar navbar-expand-sm bg-light">
+				<ul class="navbar-nav">
+				  <li class="nav">
+					<a class="nav-link" href="#">Link 1</a>
+				  </li>
+				  <li class="nav">
+					 <a class="nav-link" href="#">Link 2</a>
+				  </li>
+				  <li class="nav">
+					 <a class="nav-link" href="#">Link 3</a>
+				  </li>
+				</ul>
+			</nav>
+			<div class="">
+				
+			</div>
+		</div>
     </div>
 </div>
 
@@ -206,11 +224,6 @@
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
-    <script>
-        $().ready(function(){
-            demo.initGoogleMaps();
-        });
-    </script>
-
+	<!-- <script src="assets/js/leave_management.js"></script> -->
+	
 </html>
