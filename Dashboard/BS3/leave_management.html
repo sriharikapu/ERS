@@ -32,7 +32,7 @@
 	<link href="assets/css/leave_management.css" rel="stylesheet" />
 
 </head>
-<body>
+<body onload="colorChange()">
 
 <div class="wrapper">
     <div class="sidebar" data-color="orange" data-image="assets/img/sidebar-5.jpg">
@@ -180,94 +180,69 @@
                 </div>
             </div>
         </nav>
-		<br/>
-		<br/>
-		
-		<div>
-			<nav class="navbar navbar-fixed hr_border">
-                <div class="navbar-collapse hr_border">
-                    <ul class="nav navbar-nav navbar-left">
-                        <li class="list-group-item-primary active" >
-                           <a href="">
-                               <p>Main</p>
-                            </a>
-                        </li>
-						<li class=" ">
-                           <a href="#">
-                               <p>Actions</p>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <p>Activity</p>
-                            </a>
-                        </li>
-						
-                    </ul>
-                </div>
-				<br/>
-				<div class="hr_border">
-					<!--<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">-->
+		<br/>		
+		<div class="container">
+			<ul class="nav nav-tabs" style="margin-left:-58px">
+				<li class="nav-item">
+				  <a class="nav-link active" href="#" id="color_change">Main</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Actions</a>
+				</li>
+				<li class="nav-item">
+				  <a class="nav-link" href="#">Activity</a>
+				</li>
+			  </ul>
+		</div>
+				<!--<div class="hr_border">
+					<h4 class="heading_emp">Employee Leave</h4>
+					<!--<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="col-md-3">
+								<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">
+							</div>
+							<div class="col-md-5 ">
+								<br/>
+								<br/>
+								<h6>Employee Name-</h6>
+								<br/>
+								<h6>Employee Designation-</h6>
+							</div>
+						</div>
+					</div>
 				</div>
-				
+				-->
 				<br/>
-				
-				<div class="hr_border">
-					<ul class="nav navbar-nav navbar-left">
-                        <li class="list-group-item-primary active" >
-                           <a href="">
-                               <p>Overview</p>
-                            </a>
-                        </li>
-						<li class=" ">
-                           <a href="#">
-                               <p>CompOff</p>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a href="#">
-                                <p>Annual Leave</p>
-                            </a>
-                        </li>
-						<li class="">
-                            <a href="#">
-                                <p>Sick Leave</p>
-                            </a>
-                        </li>
-                    </ul>
-					<table class="table">
+				<br/>
+				<div style="margin-left:10px" >
+					<table class="table" align="center">
 					  <thead>
 						<tr>
-						  <th scope="col">#</th>
-						  <th scope="col">First</th>
-						  <th scope="col">Last</th>
-						  <th scope="col">Handle</th>
+						  <th>Code</th>
+						  <th>Leave Type</th>
+						  <th>No of leaves</th>
 						</tr>
 					  </thead>
 					  <tbody>
 						<tr>
-						  <th scope="row">1</th>
-						  <td>Mark</td>
-						  <td>Otto</td>
-						  <td>@mdo</td>
+						  <th>AL</th>
+						  <td>Annual Leave</td>
+						  <td>14</td>
 						</tr>
 						<tr>
-						  <th scope="row">2</th>
-						  <td>Jacob</td>
-						  <td>Thornton</td>
-						  <td>@fat</td>
+						  <th>CO</th>
+						  <td>Comp Off</td>
+						  <td>1</td>
 						</tr>
 						<tr>
-						  <th scope="row">3</th>
-						  <td>Larry</td>
-						  <td>the Bird</td>
-						  <td>@twitter</td>
+						  <th>SL</th>
+						  <td>Sick Leave</td>
+						  <td>8</td>
 						</tr>
 					  </tbody>
 					</table>
 				</div>
-			</nav>
-		</div>
     </div>
 </div>
 
@@ -293,5 +268,13 @@
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
 	<!-- <script src="assets/js/leave_management.js"></script> -->
+	<script>
+		function colorChange() {
+			var color = $("#color_change").css("color")
+			if (color == "rgb(29, 199, 234)"){
+				$("#color_change").addClass("myLabel")
+			}
+		}
+	</script>
 	
 </html>
