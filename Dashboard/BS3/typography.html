@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Light Bootstrap Dashboard by Creative Tim</title>
+	<title>TNB - Reward System</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -40,8 +40,9 @@
 
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                <a href="dashboard.html" class="simple-text">
+                <img class="logo-img" src="assets/img/logo1.png">
+                <span class="logo-span">Employee Reward System</span>
                 </a>
             </div>
 
@@ -71,14 +72,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="market.html">
-                        <i class="pe-7s-science"></i>
+                    <a href="hr.html">
+                        <i class="pe-7s-users"></i>
                         <p>HR</p>
                     </a>
                 </li>
                 <li>
-                    <a href="maps.html">
-                        <i class="pe-7s-map-marker"></i>
+                    <a href="upgrade.html">
+                        <i class="pe-7s-date"></i>
                         <p>Leave Management</p>
                     </a>
                 </li>
@@ -89,8 +90,8 @@
                     </a>
                 </li>
 				<li class="active-pro">
-                    <a href="upgrade.html">
-                        <i class="pe-7s-rocket"></i>
+                    <a href="market.html">
+                        <i class="pe-7s-shopbag"></i>
                         <p>Marketplace</p>
                     </a>
                 </li>
@@ -108,7 +109,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Typography</a>
+                    <a class="navbar-brand" href="#">Reward System</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
@@ -145,36 +146,23 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li>
-                           <a href="">
-                               <p>Account</p>
-                            </a>
-                        </li>
-                        <li class="dropdown">
-                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <p>
-										Dropdown
-										<b class="caret"></b>
-									</p>
-
-                              </a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                              </ul>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <p>Log out</p>
-                            </a>
-                        </li>
-						<li class="separator hidden-lg hidden-md"></li>
-                    </ul>
+                            <li>
+                               <a href="">
+                                   <p class="balance-name">Balance:</p>
+                                </a>
+                            </li>
+                            <li>
+                                   <a href="">
+                                       <p class="balance">50ETH</p>
+                                    </a>
+                                </li>
+                   <li>
+                       <a href="#">
+                           <p>Log out</p>
+                       </a>
+                   </li>
+                   <li class="separator hidden-lg"></li>
+               </ul>
                 </div>
             </div>
         </nav>
@@ -186,79 +174,34 @@
                     <div class="col-md-12">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Light Bootstrap Table Heading</h4>
-                                <p class="category">Created using Roboto Font Family</p>
+                                <h4 class="title">Appreciate your colleague</h4>
+                                <p class="category">The greatest gift anyone can give another person: believing in them.</p>
                             </div>
-                            <div class="content">
-
-                                <div class="typo-line">
-                                    <h1><p class="category">Header 1</p>Light Bootstrap Table Heading </h1>
+                            <form>
+                                <div class="form-group form-send">
+                                  <label for="exampleFormControlInput1">Employee ID</label>
+                                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="TNB01...">
                                 </div>
-
-                                    <div class="typo-line">
-                                    <h2><p class="category">Header 2</p>Light Bootstrap Table Heading</h2>
+                                <div class="form-group form-send">
+                                  <label for="exampleFormControlSelect1">Reason</label>
+                                  <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Appriciate for time Management</option>
+                                    <option>Appriciate for work ethics</option>
+                                    <option>Appriciate for proficiency</option>
+                                    <option>Appriciate for performance</option>
+                                    <option>Appriciate for due delivery</option>
+                                  </select>
                                 </div>
-                                <div class="typo-line">
-                                    <h3><p class="category">Header 3</p>Light Bootstrap Table Heading</h3>
+                                <div class="form-group form-send">
+                                  <label for="exampleFormControlTextarea1">Your message</label>
+                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                 </div>
-                                <div class="typo-line">
-                                    <h4><p class="category">Header 4</p>Light Bootstrap Table Heading</h4>
-                                </div>
-                                <div class="typo-line">
-                                    <h5><p class="category">Header 5</p>Light Bootstrap Table Heading</h5>
-                                </div>
-                                 <div class="typo-line">
-                                    <h6><p class="category">Header 6</p>Light Bootstrap Table Heading</h6>
-                                </div>
-                                <div class="typo-line">
-                                    <p><span class="category">Paragraph</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                                </div>
-                                <div class="typo-line">
-                                    <p class="category">Quote</p>
-                                    <blockquote>
-                                     <p>
-                                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.
-                                     </p>
-                                     <small>
-                                     Steve Jobs, CEO Apple
-                                     </small>
-                                    </blockquote>
-                                </div>
-
-                                <div class="typo-line">
-                                    <p class="category">Muted Text</p>
-                                    <p class="text-muted">
-                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.
-                                    </p>
-                                </div>
-                                <div class="typo-line">
-                                    <!--
-                                     there are also "text-info", "text-success", "text-warning", "text-danger" clases for the text
-                                     -->
-                                    <p class="category">Coloured Text</p>
-                                    <p class="text-primary">
-                                        Text Primary - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-info">
-                                        Text Info - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-success">
-                                        Text Success - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-warning">
-                                        Text Warning - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                    <p class="text-danger">
-                                        Text Danger - Light Bootstrap Table Heading and complex bootstrap dashboard you've ever seen on the internet.
-                                    </p>
-                                </div>
-
-                                <div class="typo-line">
-                                    <h2><p class="category">Small Tag</p>Header with small subtitle <br><small>".small" is a tag for the headers</small> </h2>
-                                </div>
-
-
-                            </div>
+                                <div class="form-group form-send">
+                                        <label for="exampleFormControlInput1">Amount</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ETH">
+                                      </div>
+                                <button type="submit" class="btn btn-send">Submit</button>
+                              </form>
                         </div>
                     </div>
 
