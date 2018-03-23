@@ -29,12 +29,14 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+	<link href="assets/css/leave_management.css" rel="stylesheet" />
 
 </head>
 <body>
 
 <div class="wrapper">
     <div class="sidebar" data-color="orange" data-image="assets/img/sidebar-5.jpg">
+<<<<<<< HEAD:Dashboard/BS3/maps.html
 
     <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
 
@@ -93,14 +95,74 @@
                     <a href="upgrade.html">
                         <i class="pe-7s-rocket"></i>
                         <p>Marketplace</p>
+=======
+            <!--
+        Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+
+        Tip 2: you can also add an image using data-image tag
+    -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">
+                        Creative Tim
+>>>>>>> master:Dashboard/BS3/leave_management.html
                     </a>
-                </li>
-            </ul>
-    	</div>
-    </div>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./table.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Tranasaction List</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./typography.html">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>Reward System</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./hr.html">
+                            <i class="nc-icon nc-atom"></i>
+                            <p>HR</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./leave_management.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Leave Management</p>
+                        </a>
+                    </li>
+					 <li>
+                        <a class="nav-link" href="./notifications.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Notifications</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active active-pro">
+                        <a class="nav-link active" href="./icons.html">
+                            <i class="nc-icon nc-alien-33"></i>
+                            <p>Marketplace</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
     <div class="main-panel">
-		<nav class="navbar navbar-default navbar-fixed">
+		<nav class="navbar navbar-default navbar-fixed ">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
@@ -179,9 +241,94 @@
                 </div>
             </div>
         </nav>
-
-        <div id="map"></div>
-
+		<br/>
+		<br/>
+		
+		<div>
+			<nav class="navbar navbar-fixed hr_border">
+                <div class="navbar-collapse hr_border">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li class="list-group-item-primary active" >
+                           <a href="">
+                               <p>Main</p>
+                            </a>
+                        </li>
+						<li class=" ">
+                           <a href="#">
+                               <p>Actions</p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                <p>Activity</p>
+                            </a>
+                        </li>
+						
+                    </ul>
+                </div>
+				<br/>
+				<div class="hr_border">
+					<!--<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">-->
+				</div>
+				
+				<br/>
+				
+				<div class="hr_border">
+					<ul class="nav navbar-nav navbar-left">
+                        <li class="list-group-item-primary active" >
+                           <a href="">
+                               <p>Overview</p>
+                            </a>
+                        </li>
+						<li class=" ">
+                           <a href="#">
+                               <p>CompOff</p>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="#">
+                                <p>Annual Leave</p>
+                            </a>
+                        </li>
+						<li class="">
+                            <a href="#">
+                                <p>Sick Leave</p>
+                            </a>
+                        </li>
+                    </ul>
+					<table class="table">
+					  <thead>
+						<tr>
+						  <th scope="col">#</th>
+						  <th scope="col">First</th>
+						  <th scope="col">Last</th>
+						  <th scope="col">Handle</th>
+						</tr>
+					  </thead>
+					  <tbody>
+						<tr>
+						  <th scope="row">1</th>
+						  <td>Mark</td>
+						  <td>Otto</td>
+						  <td>@mdo</td>
+						</tr>
+						<tr>
+						  <th scope="row">2</th>
+						  <td>Jacob</td>
+						  <td>Thornton</td>
+						  <td>@fat</td>
+						</tr>
+						<tr>
+						  <th scope="row">3</th>
+						  <td>Larry</td>
+						  <td>the Bird</td>
+						  <td>@twitter</td>
+						</tr>
+					  </tbody>
+					</table>
+				</div>
+			</nav>
+		</div>
     </div>
 </div>
 
@@ -206,11 +353,6 @@
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
-    <script>
-        $().ready(function(){
-            demo.initGoogleMaps();
-        });
-    </script>
-
+	<!-- <script src="assets/js/leave_management.js"></script> -->
+	
 </html>
