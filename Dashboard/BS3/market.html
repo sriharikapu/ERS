@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+  <script src="web3.js"></script>
+  <!--<script src="accounts.js"></script>-->
+  <script src="jquery-3.2.1.min.js"></script>
   <meta charset="utf-8" />
   <link rel="icon" type="image/png" href="assets/img/favicon.ico">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -30,7 +33,21 @@
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
   <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
-
+  <style>
+  .tip-button {
+    width: 100px;
+    height: 40px;
+    background-size: 100%;
+    cursor: pointer;
+    margin-left: inherit;
+  }
+  .tip-button:hover {
+  background-color: inherit;
+  }
+  .tip-button:active {
+background-color: #000000;
+  }
+  </style>
 </head>
 
 <body>
@@ -222,7 +239,9 @@
                         <img src="assets/img/product1.jpg" class="pe-7s-album">
                         <input type="text" value="Water Bottele">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                        <div class="tip-button" id="test" value = "{{resultProvider}}">
+                        <button type="button" class="btn  btn-default product-btn">Purchase</button>
+                        </div>
                       </div>
                     </div>
 
@@ -231,7 +250,9 @@
                         <img src="assets/img/product2.jpg" class="pe-7s-album">
                         <input type="text" value="Umbrella">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                         <div class="tip-button" id="test" value = "{{resultProvider}}">
+                        <button type="button" class="btn  btn-default product-btn">Purchase</button>
+                        </div>
                       </div>
                     </div>
 
@@ -240,7 +261,9 @@
                         <img src="assets/img/product3.jpg" class="pe-7s-album">
                         <input type="text" value="Power Bank">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                         <div class="tip-button" id="test" value = "{{resultProvider}}">
+                        <button type="button" class="btn tip-button btn-default product-btn">Purchase</button>
+                        </div>
                       </div>
                     </div>
 
@@ -249,7 +272,9 @@
                         <img src="assets/img/product4.jpg" class="pe-7s-album">
                         <input type="text" value="Pen">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                         <div class="tip-button" >
+                        <button type="button" id="test" onclick="test()" class="btn tip-button btn-default product-btn">Purchase098</button>
+                        </div>
                       </div>
                     </div>
 
@@ -258,7 +283,9 @@
                         <img src="assets/img/product5.jpg" class="pe-7s-album">
                         <input type="text" value="Headset">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                         <div class="tip-button" id="test" onclick="test">
+                        <button type="button" class="btn tip-button btn-default product-btn">Purchase</button>
+                        </div>
                       </div>
                     </div>
 
@@ -267,7 +294,9 @@
                         <img src="assets/img/product6.jpg" class="pe-7s-album">
                         <input type="text" value="TNB Shirt">
                         <input type="text" value="Amount = 100TNP Token">
-                        <button type="button" class="btn btn-default product-btn">Purchase</button>
+                         <div class="tip-button" id="test" value = "{{resultProvider}}">
+                        <button type="button" class="btn tip-button btn-default product-btn">Purchase</button>
+                        </div>
                       </div>
                     </div>
 
@@ -324,6 +353,7 @@
 
 </body>
 
+
 <!--   Core JS Files   -->
 <script src="assets/js/jquery.3.2.1.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
@@ -333,7 +363,40 @@
 
 <!--  Notifications Plugin    -->
 <script src="assets/js/bootstrap-notify.js"></script>
+<script>
 
+var MY_ADDRESS = '0xED73A0949d4cF7E890363Ffe570650Ec268d4F75'
+
+var tipButton = document.querySelector('.tip-button')
+
+tipButton.addEventListener('click', function() {
+
+  if (typeof web3 === 'undefined') {
+    return renderMessage('<div>You need to install <a href=“https://metmask.io“>MetaMask </a> to use this feature.  <a href=“https://metmask.io“>https://metamask.io</a></div>')
+  }
+
+  var user_address = web3.eth.accounts[0]
+
+  web3.eth.sendTransaction({
+    to: MY_ADDRESS,
+    from: user_address,
+    value: web3.toWei('1', 'ether'),
+  }, function (err, transactionHash) {
+    if (err) return renderMessage('There was a problem!: ' + err.message)
+
+    // If you get a transactionHash, you can assume it was sent,
+    // or if you want to guarantee it was received, you can poll
+    // for that transaction to be mined first.
+    renderMessage('Thanks for the generosity!!')
+  })
+})
+
+function renderMessage (message) {
+  var messageEl = document.querySelector('.message')
+  messageEl.innerHTML = message
+}
+
+</script>
 <!--  Google Maps Plugin    -->
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 
@@ -342,6 +405,32 @@
 
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
-
+<script>
+function test()
+{
+      if (typeof web3 !== "undefined") {
+      // Use Mist/MetaMask's provider
+      window.web3 = new Web3(web3.currentProvider);
+    } else {
+      console.log("No web3? You should consider trying MetaMask!");
+      // fallback - use your fallback strategy (local node / hosted node + in-dapp id mgmt / fail)
+      window.web3 = new Web3(
+        new Web3.providers.HttpProvider("http://192.168.1.177:8545")
+      );
+    }
+        web3.eth.getAccounts(function(error, accounts) {
+      if (!error) {
+        web3.eth.sendTransaction({from: accounts[0], to: '0x5d89e4c900f277c6bdc2985025c3db68ce41c7f7', value: '1000000000000'}, function(error, balance) {
+          if (!error) {
+            console.log(balance);
+          } else {
+            console.error(error);
+          }
+        });
+      } else {
+        console.error(error);
+      }
+  });
+  </script>
 
 </html>
