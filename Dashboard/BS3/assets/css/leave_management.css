@@ -30,7 +30,15 @@
   clear:both;
 }
 .hr_border {
-	border: 1px;
 	border-style: solid;
-    border-color: grey;
+    border-color: #80808028;
+	padding-left:25px;
+	padding-right:25px;
+}
+.emp_img {
+	padding-left: 32px;
+	height: 200px;
+}
+.li_border{
+	border-right:2000px;
 }
