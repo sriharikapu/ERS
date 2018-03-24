@@ -1,24 +1,27 @@
 Ethereum Based Employee reward system
 
-# [Employee Reward System](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)
+# [Employee Reward System](http://tnb.sriharikapu.com/system.png)
 [![version][version-badge]][CHANGELOG]
 
-![alt text]("")
+![alt text]("http://tnb.sriharikapu.com/system.png")
 
-**[Employee Reward System](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)** is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
+**[Employee Reward System](http://tnb.sriharikapu.com/system.png)** Reward systems are one of the most prominent and most important features of any organization. Because of the wide ranging impact a reward system has on individual behavior and behavior of organizations, it is very important designing such reward systems that will motivate the right performance, attract the right people and create a supportive and good working climate within organization.
 
-The product represents a big suite of front-end developer tools that can help you jump start your project. We have created it thinking about things you actually need in a dashboard. Light Bootstrap Dashboard contains multiple handpicked and optimised plugins. Everything is designed to fit with one another. As you will be able to see, the dashboard you can access on Creative Tim is a customisation of this product.
+As it was mentioned earlier, human resource management and reward systems play a significant role in this economic transformation. New recruits with appropriate personality profile can be the face of an economic transformation for which these youth need training. However, the employee of the former system cannot be forgotten and those who deserve have to receive promotion thus showing example for the new workers. As it indicates, human resource management is more than significant in the transformation of an economy where challenges "including lack of appropriate trained leaders, an education system that elevated technical ability above client facing skills, a shortage of linguists, marketers and financial professionals, and an inappropriate reward and remuneration system" (Rossides) can lead to potential pitfalls and organizational malfunctions.
 
 It comes with 6 filter colors for the sidebar (`black`, `azure`,`green`,`orange`,`red`,`purple`) and an option to have a background image.
 
-Special thanks go to: Robert McIntosh for the notification system Chartist for the wonderful charts We are very excited to share this dashboard with you and we look forward to hearing your feedback!
+Special thanks go to: TNB, Blockchaintmhub.io, UNITEN
+Developers: #SrihariKapu, #Sandeep, #Bassam
 
-## Links:
+## Coding Sources:
 
-+ [Bootstrap 3](http://demos.creative-tim.com/bs3/light-bootstrap-dashboard/examples/dashboard.html)
-+ [Bootstrap 4](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)
-+ [Documentation 3](https://demos.creative-tim.com/bs3/light-bootstrap-dashboard/documentation/tutorial-components.html)
-+ [Documentation 4](https://demos.creative-tim.com/light-bootstrap-dashboard/documentation/tutorial-components.html)
++ [AnimateCss](https://daneden.github.io/animate.css/)
++ [Bootstrap3](https://getbootstrap.com/)
++ [NginX](https://www.nginx.com/)
++ [Jquery](https://jquery.com/)
++ [Ethereum](https://ethereum.com/)
++ [MetaMask](https://metamask.io/)
 
 ## Quick Start:
 
