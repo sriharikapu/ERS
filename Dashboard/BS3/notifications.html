@@ -307,7 +307,8 @@
 	<script src="assets/js/demo.js"></script>
 	<script>
 		function reward_details(){
-			$.getJSON("https://api.etherscan.io/api?module=account&action=balance&address=0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
+			var from_address = web3.eth.accounts[0];
+			$.getJSON("https://api.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
 				$.each(result,function(i,field){
 					if (i == "result") {
 							var value = field/1000000000000000000 
