@@ -22,7 +22,7 @@ Developers: #SrihariKapu, #Sandeep, #Bassam
 + [Jquery](https://jquery.com/)
 + [Ethereum](https://ethereum.com/)
 + [MetaMask](https://metamask.io/)
-
++ [ParticleJS](https://vincentgarreau.com/particles.js/)
 ## Quick Start:
 
 Quick start options:
