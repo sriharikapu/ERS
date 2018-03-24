@@ -76,12 +76,21 @@ Support us for More Dapps:
 
 Ethereum: 0x42FE987767e39C9c2c19Dd24822f551e01791252
 
+Find Us: 
+
+
+Linkedin: <https://www.linkedin.com/in/bassam-abed-769227bb/>
+
+Linkedin: <https://www.linkedin.com/in/sandeep-kewlani-4b002440/>
+
+Linkedin: <https://www.linkedin.com/in/sriharikapu/>
+
+
 Social Media:
 
 Twitter: <https://twitter.com/sriharikapu>
 
 Facebook: <https://www.facebook.com/officialsriharikapu>
-
 
 Google+: <https://plus.google.com/+sriharikapu>
 
