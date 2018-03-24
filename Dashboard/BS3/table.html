@@ -250,25 +250,27 @@
 		transaction_details();
 	}
 		function transaction_details(){
-        var from_address = web3.eth.accounts[0];
+        var from_address = "0x42FE987767e39C9c2c19Dd24822f551e01791252";
             $.getJSON("http://api.etherscan.io/api?module=account&action=txlist&address="+from_address+"&startblock=0&endblock=99999999&sort=asc&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
                 $.each(result,function(i,field){
                     if (i == "result") {
                         address= from_address
-                        for(i=field.length;i<=0;i--){
-                             from = field[i].from
-                             from = from.slice(0, 8)
-                             to = field[i].to
-                             to = to.slice(0, 8)
-                             value = field[i].value/1000000000000000000
-                             value = value.toFixed(2)
-                             tx_type = "IN"
-                            if (from == address){
+                        for(i=field.length-1;i> 0;i--){
+                            var from = field[i].from 
+                            var to = field[i].to
+                            var tx_type = "IN"
+							var value = field[i].value/1000000000000000000
+							var time = field[i].timeStamp
+                            if (from.toUpperCase() === address.toUpperCase()){
                                 tx_type = "OUT"
                             }
-                             tx_hash = field[i].hash
-                             var time = field[i].timeStamp
-							 var time_value = new Date(time * 1000).format('h:i:s')
+							from = from.slice(0, 8)
+							to = to.slice(0, 8)
+                            tx_hash = field[i].hash
+							value = value.toFixed(2)
+                            //var dateTime = new Date( 1370001284000 );
+							//var time_value = dateTime.toISOString();
+							var time_value = Unix_timestamp(time);
 							 if (tx_type == "IN"){
 								$('#table_body').append('<tr id=i><td>'+from+'</td><td>'+to+'</td><td>'+value+'</td><td><span class="tx-in">'+tx_type+'</span></td><td>'+tx_hash+'</td></td><td>'+time_value+'</td></tr>')
 							 }
@@ -283,8 +285,8 @@
             });
         }
 		function reward_details(){
-			var from_address = web3.eth.accounts[0];
-			$.getJSON("https://api.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
+			var from_address = "0x42FE987767e39C9c2c19Dd24822f551e01791252";
+			$.getJSON("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
 				$.each(result,function(i,field){
 					if (i == "result") {
 							var value = field/1000000000000000000 
@@ -294,6 +296,13 @@
 					
 				});
 			});
+		}
+		function Unix_timestamp(t){
+			var dt = new Date(t*1000);
+			var hr = dt.getHours();
+			var m = "0" + dt.getMinutes();
+			var s = "0" + dt.getSeconds();
+			return hr+ ':' + m.substr(-2) + ':' + s.substr(-2);  
 		}
     </script>
 

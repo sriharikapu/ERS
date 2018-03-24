@@ -465,7 +465,6 @@
 </script>
     <script>
         
-        console.log(web3.eth.accounts[0]);
         function reward_details(){
             $.getJSON("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address="+web3.eth.accounts[0]+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
                 $.each(result,function(i,field){

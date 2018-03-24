@@ -57,9 +57,9 @@
             <input type="email" class="form-control form-login" id="email" placeholder="Email">
             </div>
             <div class="form-group">
-            <input type="password" class="form-control form-login" id="password" placeholder="Password">
+            <input type="password" class="form-control form-login" id="pwd" placeholder="Password">
             </div>
-            <button id="login_button" type="submit"  class="btn btn-default btn-block btn-custom">Sign In</button>
+            <button id="login_button" type="submit"  class="btn btn-default btn-block btn-custom" onclick="formSubmit()">Sign In</button>
 
         </div><!-- /.controls -->
     </div><!-- /#login-box -->
@@ -96,6 +96,9 @@
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
 	<script>
-		
+		function formSubmit(){
+			var email = $('#email').val()
+			if(email)
+		}
 	</script
 </html>

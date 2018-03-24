@@ -368,7 +368,7 @@
 	<script>
 		function reward_details(){
 			var from_address = web3.eth.accounts[0];
-			$.getJSON("https://api.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
+			$.getJSON("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
 				$.each(result,function(i,field){
 					if (i == "result") {
 							var value = field/1000000000000000000 
