@@ -32,7 +32,7 @@
 	<link href="assets/css/leave_management.css" rel="stylesheet" />
 
 </head>
-<body onload="colorChange();reward_details()">
+<body onload="bodyLoad();">
 
 <div class="wrapper">
     <div class="sidebar" data-color="orange" data-image="assets/img/sidebar-5.jpg">
@@ -140,13 +140,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-						<li>
-							<a href="reward_points.html">
-							<i class=""></i>
-							<p id ="reward_id" class="">Reward Points - <h5 id="value_reward"></h5></p>
-							</a>
-                        </li>
+                    <ul class="nav navbar-nav navbar-right" id="value_reward">
                         <li>
                            <a href="">
                                <p>Account</p>
@@ -269,6 +263,10 @@
 	<script src="assets/js/demo.js"></script>
 	<!-- <script src="assets/js/leave_management.js"></script> -->
 	<script>
+		function bodyLoad(){
+			colorChange();
+			reward_details();
+		}
 		function colorChange() {
 			var color = $("#color_change").css("color")
 			if (color == "rgb(29, 199, 234)"){
@@ -280,8 +278,8 @@
 				$.each(result,function(i,field){
 					if (i == "result") {
 							var value = field/1000000000000000000 
-							
-							$("#value_reward").append(value)
+							var n = value.toFixed(2);
+							$("#value_reward").append('<li><a href="typography.html"><p>Balance -'+n+'</p></a></li>')
 					}
 					
 				});
