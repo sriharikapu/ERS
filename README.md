@@ -97,4 +97,4 @@ Google+: <https://plus.google.com/+sriharikapu>
 Instagram: <https://instagram.com/sriharikapu>
 
 [CHANGELOG]: ./CHANGELOG.md
-[version-badge]: https://img.shields.io/badge/version-0.2.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-2.0.19.65-blue.svg
