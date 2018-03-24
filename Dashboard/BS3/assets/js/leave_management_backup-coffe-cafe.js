@@ -5,9 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-
-	<title>TNB - Employee Reward System</title>
-
+	<title>TNB REWARD SYSTEM</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -41,9 +39,8 @@
     <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
     	<div class="sidebar-wrapper">
             <div class="logo">
-                <a href="dashboard.html" class="simple-text">
-                <img class="logo-img" src="assets/img/logo1.png">
-                <span class="logo-span">Employee Reward System</span>
+                <a href="http://www.creative-tim.com" class="simple-text">
+                    Creative Tim
                 </a>
             </div>
             <ul class="nav">
@@ -72,13 +69,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="hr.html">
+                    <a href="market.html">
                         <i class="pe-7s-science"></i>
                         <p>HR</p>
                     </a>
                 </li>
                 <li class="active">
-                    <a href="leave_management.html">
+                    <a href="maps.html">
                         <i class="pe-7s-map-marker"></i>
                         <p>Leave Management</p>
                     </a>
@@ -143,13 +140,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-						<li>
-                           <a href="">
-                               <p id="value_reward"><span></span></p>
-                            </a>
-                        </li>
-						
+                    <ul class="nav navbar-nav navbar-right" id="value_reward">
                         <li>
                            <a href="">
                                <p>Account</p>
@@ -197,6 +188,25 @@
 				</li>
 			  </ul>
 		</div>
+				<!--<div class="hr_border">
+					<h4 class="heading_emp">Employee Leave</h4>
+					<!--<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="col-md-3">
+								<img src="assets/img/emp.jpg" class="rounded emp_img" alt="Employee">
+							</div>
+							<div class="col-md-5 ">
+								<br/>
+								<br/>
+								<h6>Employee Name-</h6>
+								<br/>
+								<h6>Employee Designation-</h6>
+							</div>
+						</div>
+					</div>
+				</div>
+				-->
 				<br/>
 				<br/>
 				<div style="margin-left:10px" >
@@ -269,8 +279,7 @@
 					if (i == "result") {
 							var value = field/1000000000000000000 
 							var n = value.toFixed(2);
-							alert(n)
-							$("#value_reward").chlidren('span').text(n)
+							$("#value_reward").append('<li><a href="typography.html"><p>Balance -'+n+'</p></a></li>')
 					}
 					
 				});
