@@ -31,7 +31,7 @@
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 
 </head>
-<body>
+<body onload="reward_details()">
 
 <div class="wrapper">
     <div class="sidebar" data-color="orange" data-image="assets/img/sidebar-5.jpg">
@@ -147,16 +147,6 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                            <li>
-                               <a href="">
-                                   <p class="balance-name">Balance:</p>
-                                </a>
-                            </li>
-                            <li>
-                                   <a href="">
-                                       <p class="balance">50ETH</p>
-                                    </a>
-                                </li>
                    <li>
                        <a href="#">
                            <p>Log out</p>
@@ -170,6 +160,7 @@
 
 
         <div class="content">
+			<div id="value_id"></div>
             <div class="container-fluid">
                 <div class="card">
                     <div class="header">
@@ -314,5 +305,18 @@
 
 	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
-
+	<script>
+		function reward_details(){
+			$.getJSON("https://api.etherscan.io/api?module=account&action=balance&address=0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
+				$.each(result,function(i,field){
+					if (i == "result") {
+							var value = field/1000000000000000000 
+							var n = value.toFixed(2);
+							$("#value_id").append('<p style="margin-left:80%;margin-top:-1%;">TOKEN BALANCE - '+n+'</p>')
+					}
+					
+				});
+			});
+		}
+	</script>
 </html>
