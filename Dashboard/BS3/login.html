@@ -54,7 +54,7 @@
         </div><!-- /.logo -->
         <div class="controls">
             <div class="form-group">
-            <input type="email" class="form-control form-login" id="email" placeholder="Email">
+            <input type="text" class="form-control form-login" id="user" placeholder="User-ID">
             </div>
             <div class="form-group">
             <input type="password" class="form-control form-login" id="pwd" placeholder="Password">
@@ -97,8 +97,16 @@
 <script src="assets/js/demo.js"></script>
 	<script>
 		function formSubmit(){
-			var email = $('#email').val()
-			if(email)
+			var user = $('#user').val()
+			if(user.toUpperCase() == "TNBERS001"){
+			 $('#form_id').attr('action', 'user1.html');
+			}
+			else if(user.toUpperCase() == "TNBERS002"){
+			 $('#form_id').attr('action', 'user2.html');
+			}
+			else if(user.toUpperCase() == "TNBERS003"){
+			 $('#form_id').attr('action', 'user3.html');
+			}
 		}
-	</script
+	</script>
 </html>
