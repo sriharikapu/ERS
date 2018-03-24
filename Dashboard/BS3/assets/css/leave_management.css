@@ -32,13 +32,23 @@
 .hr_border {
 	border-style: solid;
     border-color: #80808028;
-	padding-left:25px;
+	padding-bottom:11px;
 	padding-right:25px;
 }
 .emp_img {
-	padding-left: 32px;
-	height: 200px;
+	padding-left: 18px;
+	height: 150px;
 }
 .li_border{
 	border-right:2000px;
+}
+.heading_emp{
+	padding-left:31px;
+}
+.emp_detail{
+	padding-left:120px;
+}
+.myLabel{
+	background-color:#80808028;
+	color: #00ff00;
 }

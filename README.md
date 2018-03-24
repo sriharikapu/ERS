@@ -1,11 +1,11 @@
-vast hungry corn elder embrace impulse still clog feature gold make exit
+Ethereum Based Employee reward system
 
-# [Light Bootstrap Dashboard](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)
+# [Employee Reward System](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)
 [![version][version-badge]][CHANGELOG]
 
-![alt text](https://s3.amazonaws.com/creativetim_bucket/products/32/original/opt_lbd_thumbnail.jpg)
+![alt text]("")
 
-**[Light Bootstrap Dashboard](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)** is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
+**[Employee Reward System](http://demos.creative-tim.com/light-bootstrap-dashboard/examples/dashboard.html)** is an admin dashboard template designed to be beautiful and simple. It is built on top of Bootstrap 4 and it is fully responsive. It comes with a big collections of elements that will offer you multiple possibilities to create the app that best fits your needs. It can be used to create admin panels, project management systems, web applications backend, CMS or CRM.
 
 The product represents a big suite of front-end developer tools that can help you jump start your project. We have created it thinking about things you actually need in a dashboard. Light Bootstrap Dashboard contains multiple handpicked and optimised plugins. Everything is designed to fit with one another. As you will be able to see, the dashboard you can access on Creative Tim is a customisation of this product.
 
