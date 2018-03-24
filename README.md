@@ -27,21 +27,14 @@ Developers: #SrihariKapu, #Sandeep, #Bassam
 
 Quick start options:
 
-+ [Download from Creative Tim](https://www.creative-tim.com/product/light-bootstrap-dashboard).
++ [Download](https://tnb.sriahrikapu.com).
 
-Other Products:
-
-+ [Download HTML FREE Version](https://www.creative-tim.com/product/light-bootstrap-dashboard).
-+ [Download Angular 2+ FREE Version ](https://www.creative-tim.com/product/light-bootstrap-dashboard-angular2).
-+ [Download Angular 2+ PRO Version ](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-angular2).
-+ [Download React FREE Version ](https://www.creative-tim.com/product/light-bootstrap-dashboard-react).
-+ [Download React PRO Version ](https://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react).
 
 ### What's included
 
 Within the download you'll find the following directories and files:
 ```
-Light Bootstrap Dashboard
+Employee Reward System
 ├── assets
 │   ├── css
 │   ├── fonts
@@ -79,25 +72,20 @@ Light Bootstrap Dashboard
 
 ## Useful Links
 
-More products from Creative Tim: <https://www.creative-tim.com/bootstrap-themes>
+Support us for More Dapps:
 
-Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
-
-Freebies: <https://www.creative-tim.com/products>
-
-Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
+Ethereum: 0x42FE987767e39C9c2c19Dd24822f551e01791252
 
 Social Media:
 
-Twitter: <https://twitter.com/CreativeTim>
+Twitter: <https://twitter.com/sriharikapu>
 
-Facebook: <https://www.facebook.com/CreativeTim>
+Facebook: <https://www.facebook.com/officialsriharikapu>
 
-Dribbble: <https://dribbble.com/creativetim>
 
-Google+: <https://plus.google.com/+CreativetimPage>
+Google+: <https://plus.google.com/+sriharikapu>
 
-Instagram: <https://instagram.com/creativetimofficial>
+Instagram: <https://instagram.com/sriharikapu>
 
 [CHANGELOG]: ./CHANGELOG.md
-[version-badge]: https://img.shields.io/badge/version-2.0.1-blue.svg
+[version-badge]: https://img.shields.io/badge/version-0.2.1-blue.svg
