@@ -21,6 +21,11 @@ Developers: #SrihariKapu, #Sandeep, #Bassam
 + [Ethereum](https://ethereum.com/)
 + [MetaMask](https://metamask.io/)
 + [ParticleJS](https://vincentgarreau.com/particles.js/)
++ [Etherscan](https://etherscan.io/)
++ [GulpJS](https://gulpjs.com/)
++ [Django](https://www.djangoproject.com/)
++ [Python3](https://www.python.org)
+
 ## Quick Start:
 
 Quick start options:
@@ -29,10 +34,9 @@ Quick start options:
 
    User-Id  : 
    
-   
    Password : 1234@qwerty 
    
-for user id write to us : sri@sriharikapu.com
+for User-Id write to us : sri@sriharikapu.com
 
   
 #### Credits to:
