@@ -172,7 +172,7 @@
             </nav>
 
             <div class="content">
-				<div id="value_id"></div>
+                <div id="value_id"></div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-8">
@@ -271,7 +271,7 @@
                                 <div class="content">
                                     <div class="author">
                                         <a href="#">
-                                            <img class="avatar border-gray" src="assets/img/faces/bassam1.jpg" alt="..." />
+                                            <img class="avatar border-gray" src="assets/img/faces/sri.jpg" alt="..." />
 
                                             <h4 class="title">Srihari Kapu
                                                 <br />
@@ -284,7 +284,7 @@
                                         <br>
                                     </p>
                                     <p class="description text-center">Employee ID: <br>
-                                    <strong>TNBERS0010759</strong></p>
+                                    <strong>TNBERS0010761</strong></p>
                                 </div>
                                 <hr>
                                 <div class="text-center">
@@ -365,19 +365,19 @@
 
 <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
-	<script>
-		function reward_details(){
-			var from_address = web3.eth.accounts[0];
-			$.getJSON("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
-				$.each(result,function(i,field){
-					if (i == "result") {
-							var value = field/1000000000000000000 
-							var n = value.toFixed(2);
-							$("#value_id").append('<p style="margin-left:80%;margin-top:-1%;">TOKEN BALANCE - '+n+'</p>')
-					}
-					
-				});
-			});
-		}
-	</script>
+    <script>
+        function reward_details(){
+            var from_address = web3.eth.accounts[0];
+            $.getJSON("https://api-rinkeby.etherscan.io/api?module=account&action=balance&address="+from_address+"&tag=latest&apikey=Y5FHVYEZRBH3VHB263GQ3IIIBM1CQRAYWK",function(result){
+                $.each(result,function(i,field){
+                    if (i == "result") {
+                            var value = field/1000000000000000000 
+                            var n = value.toFixed(2);
+                            $("#value_id").append('<p style="margin-left:80%;margin-top:-1%;">TOKEN BALANCE - '+n+'</p>')
+                    }
+                    
+                });
+            });
+        }
+    </script>
 </html>
