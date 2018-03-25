@@ -98,3 +98,9 @@ Instagram: <https://instagram.com/sriharikapu>
 
 [CHANGELOG]: ./CHANGELOG.md
 [version-badge]: https://img.shields.io/badge/version-2.0.19.65-blue.svg
+
+
+
+## License
+
+[![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
