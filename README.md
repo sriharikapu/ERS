@@ -25,10 +25,10 @@ Developers: #SrihariKapu, #Sandeep, #Bassam
 
 Quick start options:
 
-+ [Demo](https://tnb.sriahrikapu.com).
++ [Demo](https://breathing.sriahrikapu.com).
 
->    User-Id  : TNBERS001
->    Password : 123456 
+| >    User-Id  : TNBERS001
+| >    Password : 123456 
 
   
 Credits to:
