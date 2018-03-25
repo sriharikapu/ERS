@@ -27,10 +27,9 @@ Quick start options:
 
 + [Demo](https://breathing.sriahrikapu.com).
 
-   `User-Id  : TNBERS001
-   
-    Password : 123456 
-`
+   User-Id  : TNBERS001, 
+   Password : 123456 
+
   
 Credits to:
 
