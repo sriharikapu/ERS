@@ -25,9 +25,13 @@ Developers: #SrihariKapu, #Sandeep, #Bassam
 
 Quick start options:
 
-+ [Download](https://tnb.sriahrikapu.com).
++ [Demo](https://tnb.sriahrikapu.com).
 
-Special Thanks to:
+>    User-Id  : TNBERS001
+>    Password : 123456 
+
+  
+Credits to:
 
 + [Creative Tim](https://www.creative-tim.com/)
 
@@ -153,7 +157,14 @@ Support us for More Dapps:
 
 Ethereum: 0x42FE987767e39C9c2c19Dd24822f551e01791252
 
-Find Us: 
+Bitcoin: 1HFGqnMP1cYvcaTqiMpqmr2gZRrJyhboYx
+
+Ripple: rhwdjmxkuLbv4HoXe579N6pWobdF54u6Hz
+
+Litecoin: LPxSWectcG5C7Dyp9EDTz7z4143pwqjeyo
+
+
+## Find Us: 
 
 
 Linkedin: <https://www.linkedin.com/in/bassam-abed-769227bb/>
@@ -163,7 +174,7 @@ Linkedin: <https://www.linkedin.com/in/sandeep-kewlani-4b002440/>
 Linkedin: <https://www.linkedin.com/in/sriharikapu/>
 
 
-Social Media:
+## Social Media:
 
 Twitter: <https://twitter.com/sriharikapu>
 
