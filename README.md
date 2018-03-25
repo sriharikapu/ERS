@@ -9,8 +9,6 @@ Ethereum Based Employee reward system
 
 As it was mentioned earlier, human resource management and reward systems play a significant role in this economic transformation. New recruits with appropriate personality profile can be the face of an economic transformation for which these youth need training. However, the employee of the former system cannot be forgotten and those who deserve have to receive promotion thus showing example for the new workers. As it indicates, human resource management is more than significant in the transformation of an economy where challenges "including lack of appropriate trained leaders, an education system that elevated technical ability above client facing skills, a shortage of linguists, marketers and financial professionals, and an inappropriate reward and remuneration system" (Rossides) can lead to potential pitfalls and organizational malfunctions.
 
-It comes with 6 filter colors for the sidebar (`black`, `azure`,`green`,`orange`,`red`,`purple`) and an option to have a background image.
-
 Special thanks go to: TNB, Blockchaintmhub.io, UNITEN
 Developers: #SrihariKapu, #Sandeep, #Bassam
 
