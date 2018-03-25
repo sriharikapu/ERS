@@ -27,6 +27,10 @@ Quick start options:
 
 + [Download](https://tnb.sriahrikapu.com).
 
+Special Thanks to:
+
++ [Creative Tim](https://www.creative-tim.com/)
+
 
 ### What's included
 
