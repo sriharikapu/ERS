@@ -196,4 +196,4 @@ Instagram: <https://instagram.com/sriharikapu>
 ## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-[Mozilla Public License 2.0](https://mozorg.cdn.mozilla.net/media/img/mozorg/mozilla-256.jpg)
+![Mozilla Public License 2.0](https://mozorg.cdn.mozilla.net/media/img/mozorg/mozilla-256.jpg)
