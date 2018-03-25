@@ -254,88 +254,88 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 .login1 body{
-  height: 100%;
-  background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
-  background:orange;
-  position: relative;
+	height: 100%;
+	background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
+	background:orange;
+	position: relative;
 }
 
 .login1 html{
-  height: 100%;
-  background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
-  background:black;
-  position: relative;
+	height: 100%;
+	background-repeat: no-repeat;    /*background-image: linear-gradient(rgb(12, 97, 33),rgb(104, 145, 162));*/
+	background:black;
+	position: relative;
 }
   
   #login-box {
     width: 80%;
     position: absolute;
     border-radius: 15px;
-  border: 1px solid black;
-  background: black;
-  min-height: 250px;
+	border: 1px solid black;
+	background: black;
+	min-height: 250px;
     padding: 20px;
     margin-top: 33%;
     margin-left: 50px;
-  z-index: 9999;
+	z-index: 9999;
 }
 #login-box .logo .logo-caption {
-  color: white;
-  text-align: center;
-  margin-bottom: 0px;
+	color: white;
+	text-align: center;
+	margin-bottom: 0px;
 }
 #login-box .logo .tweak {
-  color: #af6409;
+	color: #af6409;
 }
 #login-box .controls {
-  padding-top: 30px;
+	padding-top: 30px;
 }
 #login-box .controls input {
-  border-radius: 0px;
-  background: white;
-  border: 0px;
-  color: black;
-  font-family: 'Nunito', sans-serif;
+	border-radius: 0px;
+	background: white;
+	border: 0px;
+	color: black;
+	font-family: 'Nunito', sans-serif;
 }
 #login-box .controls input:focus {
-  box-shadow: none;
+	box-shadow: none;
 }
 #login-box .controls input:first-child {
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
 }
 #login-box .controls input:last-child {
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 #login-box button.btn-custom {
-  border-radius: 2px;
-  margin-top: 8px;
+	border-radius: 2px;
+	margin-top: 8px;
     background:black;
     width: 50%;
     display: block;
     margin: 0 auto;
     border-color: white;
     color: orange;
-  font-family: 'Nunito', sans-serif;
+	font-family: 'Nunito', sans-serif;
 }
 #login-box button.btn-custom:hover{
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-  background: rgba(48, 46, 45, 1);
-  border-color: #af6409;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+	background: rgba(48, 46, 45, 1);
+	border-color: #af6409;
 }
 #particles-js{
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-    position: fixed;
-    top: 0px;
-    z-index:1;
+  	width: 100%;
+  	height: 100%;
+  	background-size: cover;
+  	background-position: 50% 50%;
+  	position: fixed;
+  	top: 0px;
+  	z-index:1;
 }
 
 .form-login{
@@ -356,8 +356,8 @@
     position: relative;
     font-weight: bold;
     color: black;
-    margin-right: 15px;
-    margin-top: 45%;
+    margin-right: 30px;
+    margin-top: 53%;
 }
 .hr-img{
    width: 98%;
