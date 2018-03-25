@@ -35,7 +35,7 @@ Quick start options:
 for user id write to us : sri@sriharikapu.com
 
   
-#Credits to:
+# Credits to:
 
 + [Creative Tim](https://www.creative-tim.com/)
 
@@ -196,4 +196,4 @@ Instagram: <https://instagram.com/sriharikapu>
 ## License
 
 [![CC0](https://i.creativecommons.org/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-[!Mozilla Public License 2.0](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mozilla_logo.svg/2000px-Mozilla_logo.svg.png)
+[!Mozilla Public License 2.0](https://media.licdn.com/media-proxy/ext?w=800&h=800&hash=%2BpdUe4dDxQBQ3O7ZgQ8w0mdJ9bk%3D&ora=1%2CaFBCTXdkRmpGL2lvQUFBPQ%2CxAVta5g-0R6jnhodx1Ey9KGTqAGj6E5DQJHUA3L0CHH05IbfPWi6e8Pee7ClokAXKyQBjQAzKu-1EmXnRo7qKNu7L45yipWzLMX5aRUPbhU4hGUB_N88)
