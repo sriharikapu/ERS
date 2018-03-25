@@ -35,37 +35,112 @@ Quick start options:
 Within the download you'll find the following directories and files:
 ```
 Employee Reward System
-├── assets
-│   ├── css
-│   ├── fonts
-│   ├── img
-│   ├── js
-│   │   ├── core
-│   │   │   ├── bootstrap.min.js
-│   │   │   ├── jquery.3.2.1.min.js
-│   │   │   └── popper.min.js
-│   │   ├── demo.js
-│   │   ├── light-bootstrap-dashboard.js
-│   │   └── plugins
-│   │       ├── bootstrap-datepicker.js
-│   │       ├── bootstrap-notify.js
-│   │       ├── bootstrap-switch.js
-│   │       ├── chartist.min.js
-│   │       ├── jquery.sharrre.js
-│   │       └── nouislider.min.js
-├── documentation
-│   ├── template.html
-│   └── tutorial-components.html
-├── examples
-│   ├── dashboard.html
-│   ├── icons.html
-│   ├── maps.html
-│   ├── notifications.html
-│   ├── table.html
-│   ├── typography.html
-│   ├── upgrade.html
-│   └── user.html
-├── CHANGELOG.md
+├── Dashboard
+│   ├── BS3
+|   |   ├── assets
+|   |   |   ├── css
+|   |   |   |   ├── animate.min.css
+|   |   |   |   ├── bootstrap.min.css
+|   |   |   |   ├── demo.css
+|   |   |   |   ├── leave_management.css
+|   |   |   |   ├── light-bootstrap-dashboard.css
+|   |   |   |   └── pe-icon-7-stroke.css
+|   |   |   ├── fonts
+|   |   |   |   ├── Pe-icon-7-stroke.eot
+|   |   |   |   ├── Pe-icon-7-stroke.svg
+|   |   |   |   ├── Pe-icon-7-stroke.ttf
+|   |   |   |   └── Pe-icon-7-stroke.woff
+|   |   |   ├── img
+|   |   |   |   ├── bassam.jpg
+|   |   |   |   ├── bassam1.jpg
+|   |   |   |   ├── face-0.jpg
+|   |   |   |   ├── face-1.jpg
+|   |   |   |   ├── face-2.jpg
+|   |   |   |   ├── face-3.jpg
+|   |   |   |   ├── face-4.jpg
+|   |   |   |   ├── face-5.jpg
+|   |   |   |   ├── face-6.jpg
+|   |   |   |   ├── face-7.jpg
+|   |   |   |   ├── sandeep.jpg
+|   |   |   |   ├── sri.jpg
+|   |   |   |   └── Pe-icon-7-stroke.woff
+|   |   |   ├── js
+|   |   |   |   ├── bootstrap-notify.js
+|   |   |   |   ├── bootstrap-select.js
+|   |   |   |   ├── bootstrap.min.js
+|   |   |   |   ├── chartist.min.js
+|   |   |   |   ├── demo.js	
+|   |   |   |   ├── jquery.3.2.1.min.js
+|   |   |   |   ├── leave_management.js
+|   |   |   |   ├── leave_management_backup-coffe-cafe.js
+|   |   |   |   ├── light-bootstrap-dashboard.js
+|   |   |   |   └── particle.min_flkakj.js
+|   |   |   ├── sass
+|   |   |   |   ├──lbd
+|   |   |   |   |   └── mixins
+|   |   |   |   |   |   ├── _buttons.scss
+|   |   |   |   |   |   ├── _cards.scss
+|   |   |   |   |   |   ├── _chartist.scss
+|   |   |   |   |   |   ├── _icons.scss
+|   |   |   |   |   |   ├── _inputs.scss
+|   |   |   |   |   |   ├── _labels.scss
+|   |   |   |   |   |   ├── _morphing-buttons.scss
+|   |   |   |   |   |   ├── _navbars.scss
+|   |   |   |   |   |   ├── _social-buttons.scss
+|   |   |   |   |   |   ├── _tabs.scss
+|   |   |   |   |   |   ├── _transparency.scss
+|   |   |   |   |   |   └── _vendor-prefixes.scss
+|   |   |   |   |   ├── _alerts.scss
+|   |   |   |   |   ├── _buttons.scss
+|   |   |   |   |   ├── _cards.scss
+|   |   |   |   |   ├── _chartist.scss
+|   |   |   |   |   ├── _checkbox-radio-switch.scss
+|   |   |   |   |   ├── _dropdown.scss
+|   |   |   |   |   ├── _footers.scss
+|   |   |   |   |   ├── _inputs.scss
+|   |   |   |   |   ├── _misc.scss
+|   |   |   |   |   ├── _mixins.scss
+|   |   |   |   |   ├── _navbars.scss
+|   |   |   |   |   ├── _responsive.scss
+|   |   |   |   |   ├── _sidebar-and-main-panel.scss
+|   |   |   |   |   ├── _tables.scss
+|   |   |   |   |   ├── _typography.scss
+|   |   |   |   |   └── _variables.scss
+|   |   |   |   └── light-bootstrap-dashboard.scss
+|   |   |   └── test.html
+|   |   ├── documentation
+|   |   |   ├── css
+|   |   |   |   └── documentation.css
+|   |   |   └── tutorial-components.html
+|   |   |
+│   |   ├── CHANGELOG.md
+│   |   ├── dashboard.html
+│   |   ├── hr.html
+│   |   ├── leave_management.html
+│   |   ├── login.html
+│   |   ├── market.html
+│   |   ├── notifications.html
+│   |   ├── table.html
+│   |   ├── template.html
+│   |   ├── typography.html
+│   |   ├── upgrade.html
+│   |   ├── user1.html
+│   |   ├── user2.html
+│   |   └── user3.html
+│   ├── assets/js/
+│   │   └── bootstrap.min.js
+│   └── CHANGELOG.md   
+├── Smartcontract
+│   ├── tnb.sol
+│   └── abi.json
+├── TNB_HACKATHON/TNB
+│   └──Django & PIP Dependencies
+├── documents
+│   ├── logo123.png
+│   └── logo200x120.png
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 
 ```
