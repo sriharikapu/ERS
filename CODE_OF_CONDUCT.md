@@ -75,6 +75,8 @@ This code of conduct and its related procedures also applies to unacceptable beh
 
 sriharikapu163@gmail.com
 
+sriharikapu@icloud.com
+
 ## 10. License and attribution
 
 This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
