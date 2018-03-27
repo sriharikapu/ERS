@@ -3,6 +3,9 @@ Ethereum Based Employee reward system
 # [Employee Reward System](http://tnb.sriharikapu.com/system.png)
 [![version][version-badge]][CHANGELOG]
 
+
+[![Build Status](https://travis-ci.org/jibrelnetwork/ethereum-qr-code.svg?branch=master)](https://travis-ci.org/jibrelnetwork/ethereum-qr-code) ![DEPENDENCIES status](https://david-dm.org/jibrelnetwork/ethereum-qr-code.svg)
+
 ![](http://tnb.sriharikapu.com/system.png)
 
 **[Employee Reward System](http://tnb.sriharikapu.com/system.png)** Reward systems are one of the most prominent and most important features of any organization. Because of the wide ranging impact a reward system has on individual behavior and behavior of organizations, it is very important designing such reward systems that will motivate the right performance, attract the right people and create a supportive and good working climate within organization.
