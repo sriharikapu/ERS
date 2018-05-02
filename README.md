@@ -1,7 +1,6 @@
 Ethereum Based Employee reward system
 
 # [Employee Reward System](http://tnb.sriharikapu.com/system.png)
-[![version][version-badge]][CHANGELOG]
 
 
 [![Build Status](https://travis-ci.org/jibrelnetwork/ethereum-qr-code.svg?branch=master)](https://travis-ci.org/jibrelnetwork/ethereum-qr-code) ![DEPENDENCIES status](https://david-dm.org/jibrelnetwork/ethereum-qr-code.svg)
