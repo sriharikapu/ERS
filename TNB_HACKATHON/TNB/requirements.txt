@@ -1,7 +1,7 @@
 braintree==3.38.0
 certifi==2017.7.27.1
 chardet==3.0.4
-Django==1.11.6
+Django==1.11.28
 djangorestframework==3.7.1
 djangorestframework-jwt==1.11.0
 idna==2.6
