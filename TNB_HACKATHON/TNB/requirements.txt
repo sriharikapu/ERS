@@ -15,7 +15,7 @@ requests-oauthlib==0.8.0
 urllib3==1.22
 six==1.11.0
 django-allauth==0.34.0
-aiohttp==2.3.7
+aiohttp==3.7.4
 pyfcm==1.4.3
 django-countries
 django-gulp
