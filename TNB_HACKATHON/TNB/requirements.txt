@@ -12,7 +12,7 @@ PyJWT==1.5.3
 pytz==2017.2
 requests==2.18.4
 requests-oauthlib==0.8.0
-urllib3==1.22
+urllib3==1.26.5
 six==1.11.0
 django-allauth==0.34.0
 aiohttp==2.3.7
